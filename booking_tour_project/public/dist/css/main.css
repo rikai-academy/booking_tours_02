@@ -18,13 +18,7 @@
  09.	Flexslider
  10.	Grid
 */
-/* =============================================
-<<<<<<< HEAD
-			Theme Reset Style
-=======
-			Theme Reset Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 @import url(https://fonts.googleapis.com/css?family=Caveat+Brush|Montserrat:300,400,500,600,700|Roboto:300,400,500,700);
 * {
 	margin: 0px;
@@ -244,13 +238,7 @@ table > tbody + tbody { border-top: 2px solid #dbdbdb; }
 p ins { color: #676767; }
 dl dd { margin-left: 20px; }
 address { font-style: italic; }
-/* =============================================
-<<<<<<< HEAD
-			Theme Custom Select
-=======
-			Theme Custom Select
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-select {
 	color:#676767;
 	float:left;
@@ -1450,11 +1438,8 @@ li.tg-rss a { background:#ff6600; }
 	display: block;
 }
 .tg-tourdestination figcaption .tg-description { padding: 20px 0 0; }
-<<<<<<< HEAD
+
 .tg-tourdestination figcaption .tg-description p {
-=======
-.tg-tourdestination figcaption .tg-description p {
->>>>>>> 2a28b54 (view tour)
 	margin: 0;
 	font-size: 16px;
 	font-weight: 300;
@@ -1777,13 +1762,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-destinationsslider .tg-btnroundnext i { color: inherit; }
 .tg-destinationsslider .tg-btnroundprev { left: -80px; }
 .tg-destinationsslider .tg-btnroundnext { right: -80px; }
-/* =============================================
-<<<<<<< HEAD
-			Call To Action Style
-=======
-			Call To Action Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-calltoaction {
 	color: #fff;
 	width: 100%;
@@ -1805,13 +1784,7 @@ li.tg-rss a { background:#ff6600; }
 }
 .tg-calltoaction .tg-description { padding: 0 0 75px; }
 .tg-calltoaction .tg-description p { margin: 0; }
-/* =============================================
-<<<<<<< HEAD
-			Our Guides Style
-=======
-			Our Guides Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-guidesslider .tg-btnroundprev,
 .tg-guidesslider .tg-btnroundnext {
 	color: #000;
@@ -4663,13 +4636,7 @@ blockquote{
 	filter: drop-shadow(0 0 0 rgba(0,0,0,.7));
 }
 .tg-formbillingdetail .tg-btn{margin:30px 0 0;}
-/*======================================================================================
-<<<<<<< HEAD
-								Dashboard Style
-=======
-								Dashboard Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-dashboard{
 	width:100%;
 	float:left;
@@ -4860,13 +4827,7 @@ blockquote{
 }
 .tg-imgholder .tg-btn:after{display:none;}
 .tg-imgholder .tg-btn:hover{color:#fff;}
-/*======================================================================================
-<<<<<<< HEAD
-								Coming Soon Style
-=======
-								Coming Soon Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 body.tg-comingsoonpage{
 	background: url(../images/comingsoon-bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -5021,11 +4982,7 @@ body.tg-comingsoonpage .tg-main:before{
 	-moz-transform: translate(0px, 0px) scale(1, 1);
 	-o-transform: translate(0px, 0px) scale(1, 1);
 	-ms-transform: translate(0px, 0px) scale(1, 1);
-<<<<<<< HEAD
 	transform: translate(0px, 0px) scale(1, 1);
-=======
-	transform: translate(0px, 0px) scale(1, 1);
->>>>>>> 2a28b54 (view tour)
 	opacity: 1;
 }
 .tg-search form{

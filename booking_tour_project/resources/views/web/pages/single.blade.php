@@ -1,6 +1,10 @@
 @extends('web.layouts.main', ['title' => 'Detail Tour'])
+<<<<<<< HEAD
 @section('content')
     <!-- SubHeader =============================================== -->
+=======
+@section('content')=
+>>>>>>> 57d92b6b2ad20c5e6679e24ccb977a5239395764
     <section class="parallax_window_in" data-parallax="scroll"
              data-image-src="{{asset('dist/img/sub_header_list_museum_in.jpg')}}"
              data-natural-width="1400" data-natural-height="470">
@@ -11,9 +15,12 @@
             </div>
         </div>
     </section>
+<<<<<<< HEAD
     <!-- End section -->
     <!-- End SubHeader ============================================ -->
 
+=======
+>>>>>>> 57d92b6b2ad20c5e6679e24ccb977a5239395764
     <section class="wrapper">
         <div class="divider_border"></div>
 
@@ -41,65 +48,6 @@
                         <div class="tab-pane in active" id="tab_1">
 
                             <p>{{$tour->description}}</p>
-                        {{--                            <div class="row">--}}
-                        {{--                                <div class="col-md-6">--}}
-                        {{--                                    <div class="feature-box">--}}
-                        {{--                                        <div class="feature-box-icon">--}}
-                        {{--                                            <i class="icon-ok-4"></i>--}}
-                        {{--                                        </div>--}}
-                        {{--                                        <div class="feature-box-info">--}}
-                        {{--                                            <h4>Invenire voluptatum</h4>--}}
-                        {{--                                            <p>--}}
-                        {{--                                                Lorem ipsum dolor sit amet, ei per elitr persecuti adipiscing, ne--}}
-                        {{--                                                discere temporibus nam.--}}
-                        {{--                                            </p>--}}
-                        {{--                                        </div>--}}
-                        {{--                                    </div>--}}
-                        {{--                                    <div class="feature-box">--}}
-                        {{--                                        <div class="feature-box-icon">--}}
-                        {{--                                            <i class="icon-ok-4"></i>--}}
-                        {{--                                        </div>--}}
-                        {{--                                        <div class="feature-box-info">--}}
-                        {{--                                            <h4>Nec ludus repudiare</h4>--}}
-                        {{--                                            <p>--}}
-                        {{--                                                Lorem ipsum dolor sit amet, ei per elitr persecuti adipiscing, ne--}}
-                        {{--                                                discere temporibus nam.--}}
-                        {{--                                            </p>--}}
-                        {{--                                        </div>--}}
-                        {{--                                    </div>--}}
-                        {{--                                </div>--}}
-                        {{--                                <!-- End col -->--}}
-
-                        {{--                                <div class="col-md-6">--}}
-                        {{--                                    <div class="feature-box">--}}
-                        {{--                                        <div class="feature-box-icon">--}}
-                        {{--                                            <i class="icon-ok-4"></i>--}}
-                        {{--                                        </div>--}}
-                        {{--                                        <div class="feature-box-info">--}}
-                        {{--                                            <h4>Vix agam fabellas</h4>--}}
-                        {{--                                            <p>--}}
-                        {{--                                                Lorem ipsum dolor sit amet, ei per elitr persecuti adipiscing, ne--}}
-                        {{--                                                discere temporibus nam.--}}
-                        {{--                                            </p>--}}
-                        {{--                                        </div>--}}
-                        {{--                                    </div>--}}
-                        {{--                                    <div class="feature-box">--}}
-                        {{--                                        <div class="feature-box-icon">--}}
-                        {{--                                            <i class="icon-ok-4"></i>--}}
-                        {{--                                        </div>--}}
-                        {{--                                        <div class="feature-box-info">--}}
-                        {{--                                            <h4>Sea laoreet pericula</h4>--}}
-                        {{--                                            <p>--}}
-                        {{--                                                Lorem ipsum dolor sit amet, ei per elitr persecuti adipiscing, ne--}}
-                        {{--                                                discere temporibus nam.--}}
-                        {{--                                            </p>--}}
-                        {{--                                        </div>--}}
-                        {{--                                    </div>--}}
-                        {{--                                </div>--}}
-                        {{--                                <!-- End col -->--}}
-                        {{--                            </div>--}}
-                        <!-- End row -->
-
                             <hr>
 
                             <h3>Program <span>(4 days)</span></h3>

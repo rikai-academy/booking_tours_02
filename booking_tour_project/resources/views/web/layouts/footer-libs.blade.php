@@ -1,6 +1,7 @@
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script src="{{asset('dist/js/jquery.min.js')}}"></script>
+<script src="{{asset('dist/js/popper.min.js')}}"></script>
+<script src="{{asset('dist/js/bootstrap.min.js')}}"></script>
 <script src="{{asset('dist/js/common_scripts_min.js')}}"></script>
 <script src="{{asset('dist/js/validate.js')}}"></script>
 <script src="{{asset('dist/js/jquery.tweet.min.js')}}"></script>
@@ -31,7 +32,7 @@
         // except the last line!
     });
 </script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="{{asset('dist/js/toastr.min.js')}}"></script>
 <script src="{{ asset('dist/js/libs/xeditable/bootstrap-editable.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function () {

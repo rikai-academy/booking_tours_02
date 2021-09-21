@@ -10,19 +10,18 @@ use Mockery\Exception;
 
 class LoginController extends Controller
 {
+    public function index(){
+        return view('web.auth.login');
+    }
     public function login(Request $request){
-        $credentials = $request->validate([
+        $credentials = $this->validate(request(), [
            'email' => 'required|email:rfc,dns',
            'password' => 'required'
         ]);
         if (Auth::attempt($credentials)) {
-            //Lưu session đăng nhập
             $request->session()->regenerate();
-
-            //Trả về view sau login
             return redirect()->intended('/')->with(['success' => 'Đăng nhập thành công']);
         }
-        //Return trở lại nếu sai thông tin
         return redirect()->route('login')->withErrors([
             'message' => 'Không thể đăng nhập, vui lòng kiểm tra lại thông tin đăng nhập'
         ]);

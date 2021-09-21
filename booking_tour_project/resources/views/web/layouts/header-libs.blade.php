@@ -14,7 +14,7 @@
 
 <!-- BASE CSS -->
 <link href="{{asset('dist/css/animate.min.css')}}" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{asset('dist/css/bootstrap.min.css')}}">
 <link href="{{asset('dist/css/bootstrap.min.css')}}" rel="stylesheet">
 <link href="{{asset('dist/css/style.css')}}" rel="stylesheet">
 <link href="{{asset('dist/css/responsive.css')}}" rel="stylesheet">
@@ -31,6 +31,6 @@
 <script src="{{asset('dist/js/html5shiv.min.js')}}"></script>
 <script src="{{asset('dist/js/respond.min.js')}}"></script>
 <![endif]-->
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="{{asset('dist/css/toastr.min.css')}}">
+<link rel="stylesheet" href="{{asset('dist/css/jquery-ui.css')}}">
+<script src="{{asset('dist/js/jquery-ui.js')}}"></script>

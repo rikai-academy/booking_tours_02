@@ -27,8 +27,8 @@
 <script src="{{ asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
 <!-- AdminLTE App -->
 <script src="{{ asset('dist/js/adminlte.js') }}"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="{{asset('dist/js/toastr.min.js')}}"></script>
+<script src="{{ asset('dist/js/libs/xeditable/bootstrap-editable.min.js') }}"></script>
 <script src="{{ asset('dist/js/libs/xeditable/bootstrap-editable.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function () {

@@ -41,24 +41,6 @@
 	=============================================== */
 	/* Animation on scroll */
 	new WOW().init();
-
-	/* Booking form calculate */
-	// update_amounts();
-	// $('select').change(update_amounts);
-
-	// function update_amounts() {
-	// 	var sum = 0.0;
-	// 	$('#tickets > tbody  > tr').each(function () {
-	// 		var qty = $(this).find('option:selected').val();
-	// 		var price = $(this).find('.price').text().replace(/[^\d.]/, '');
-	// 		var amount = (qty * price);
-	// 		sum += amount;
-	// 		$(this).find('.subtotal').text('$' + amount);
-	// 	});
-	// 	$('#total').val('$' + sum);
-	// };
-
-	/* Tooltip*/
 	$('.tooltip-1').tooltip({html: true});
 
 	/* Accordion*/
