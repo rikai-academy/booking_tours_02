@@ -24,9 +24,6 @@
     <select />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="2ef466b3-d8d9-4d8f-b70f-b68134b604d4" name="Default Changelist" comment="" />
-=======
     <list default="true" id="2ef466b3-d8d9-4d8f-b70f-b68134b604d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking_tour_project/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/booking_tour_project/app/Http/Kernel.php" afterDir="false" />
@@ -39,7 +36,6 @@
       <change beforePath="$PROJECT_DIR$/booking_tour_project/resources/views/web/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/booking_tour_project/resources/views/web/layouts/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking_tour_project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/booking_tour_project/routes/web.php" afterDir="false" />
     </list>
->>>>>>> 57d92b6b2ad20c5e6679e24ccb977a5239395764
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,11 +193,7 @@
       <workItem from="1631968385975" duration="814000" />
       <workItem from="1631972267539" duration="2386000" />
       <workItem from="1632017015918" duration="476000" />
-<<<<<<< HEAD
-      <workItem from="1632025984997" duration="11792000" />
-=======
       <workItem from="1632025984997" duration="11410000" />
->>>>>>> 57d92b6b2ad20c5e6679e24ccb977a5239395764
     </task>
     <servers />
   </component>
@@ -218,18 +210,8 @@
         </entry>
       </map>
     </option>
-<<<<<<< HEAD
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632044998388">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1632044998388" />
-=======
-  </component>
-  <component name="WindowStateProjectService">
->>>>>>> 57d92b6b2ad20c5e6679e24ccb977a5239395764
     <state x="477" y="147" width="581" height="530" key="find.popup" timestamp="1632040728823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

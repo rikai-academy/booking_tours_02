@@ -115,12 +115,9 @@
       <path value="$PROJECT_DIR$/booking_tour_project/vendor/graham-campbell/result-type" />
     </include_path>
   </component>
-<<<<<<< HEAD
-=======
   <component name="PhpUnit">
     <phpunit_settings>
       <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/booking_tour_project/vendor/autoload.php" />
     </phpunit_settings>
   </component>
->>>>>>> 57d92b6b2ad20c5e6679e24ccb977a5239395764
 </project>

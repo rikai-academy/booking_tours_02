@@ -18,7 +18,7 @@ Route::get('/single/{id}', [\App\Http\Controllers\web\SingleController::class, '
 Route::get('/tour', [\App\Http\Controllers\web\TourController::class, 'index'])->name('tour');
 
 
-Route::get('/login/page', [\App\Http\Controllers\web\auth\LoginController::class, 'index'])->name('loginUser');
+Route::get('/login', [\App\Http\Controllers\web\auth\LoginController::class, 'index'])->name('loginUser');
 Route::post('/login', [\App\Http\Controllers\web\auth\LoginController::class, 'login']);
 Route::get('/logout', [\App\Http\Controllers\web\auth\LoginController::class, 'logout']);
 /*admin*/

@@ -22,7 +22,7 @@ class LoginController extends Controller
             $request->session()->regenerate();
             return redirect()->intended('/')->with(['success' => 'Đăng nhập thành công']);
         }
-        return redirect()->route('login')->withErrors([
+        return redirect()->route('loginUser')->withErrors([
             'message' => 'Không thể đăng nhập, vui lòng kiểm tra lại thông tin đăng nhập'
         ]);
     }
