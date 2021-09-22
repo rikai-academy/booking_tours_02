@@ -18,6 +18,7 @@
  09.	Flexslider
  10.	Grid
 */
+
 @import url(https://fonts.googleapis.com/css?family=Caveat+Brush|Montserrat:300,400,500,600,700|Roboto:300,400,500,700);
 * {
     margin: 0px;
@@ -237,6 +238,7 @@ table > tbody + tbody { border-top: 2px solid #dbdbdb; }
 p ins { color: #676767; }
 dl dd { margin-left: 20px; }
 address { font-style: italic; }
+
 .tg-select {
     color:#676767;
     float:left;
@@ -266,13 +268,7 @@ address { font-style: italic; }
     -webkit-appearance: none;
 }
 .tg-select select option { color:#676767; }
-/* =============================================
-<<<<<<< HEAD
-		Theme Custom CheckBox Radio
-=======
-		Theme Custom CheckBox Radio
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-radio,
 .tg-radio label,
 .tg-checkbox,
@@ -304,13 +300,7 @@ address { font-style: italic; }
 .tg-radio input[type=radio] + label:before { content:'';}
 .tg-radio input[type=radio]:checked + label:before,
 .tg-checkbox input[type=checkbox]:checked + label:before {content:'\f046';}
-/* =============================================
-<<<<<<< HEAD
-			Theme Global Elements
-=======
-			Theme Global Elements
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-haslayout {
     width:100%;
     float:left;
@@ -534,7 +524,7 @@ li.tg-rss a { background:#ff6600; }
 }
 .tg-stars:before { content: '\f006 \f006 \f006 \f006 \f006'; }
 .tg-stars span {
-    overflow: hidden;
+	overflow: hidden;
 }
 .tg-stars span:after { color:#000; }
 .row.no-gutters {
@@ -584,13 +574,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-sectionhead .tg-sectiontitle { padding: 0 0 20px; }
 .tg-sectionhead .tg-description {  }
 .tg-sectionhead .tg-description p { margin: 0; }
-/* =============================================
-<<<<<<< HEAD
-			Theme Pagination Style
-=======
-			Theme Pagination Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-pagination {
     width:100%;
     float: left;
@@ -626,13 +610,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-pagination ul li a:hover { color: #fff; }
 .tg-pagination ul li.tg-prevpage a i,
 .tg-pagination ul li.tg-nextpage a i { font-size: 20px; }
-/* =============================================
-<<<<<<< HEAD
-			Theme BreadCrumb Style
-=======
-			Theme BreadCrumb Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-breadcrumb {
     padding: 0;
     margin:0;
@@ -666,13 +644,7 @@ li.tg-rss a { background:#ff6600; }
     color:#fff;
 }
 .tg-breadcrumb li.tg-active{opacity:0.6;}
-/* =============================================
-<<<<<<< HEAD
-			Theme Styling
-=======
-			Theme Styling
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-wrapper {
     height:100%;
     overflow-y: hidden;
@@ -682,13 +654,7 @@ li.tg-rss a { background:#ff6600; }
     width:100%;
     float:left;
 }
-/* =============================================
-<<<<<<< HEAD
-			Theme Header Style
-=======
-			Theme Header Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-header {
     z-index: 3;
     background: #fff;
@@ -895,11 +861,11 @@ li.tg-rss a { background:#ff6600; }
 .tg-cartsearch ul li { border-left: 1px solid #414150; }
 .tg-cartsearch ul li a { width: 50px; }
 .tg-navigationarea {
-    width: 100%;
-    float: left;
-    padding: 0 0 0 30px;
-    text-align:center;
-    position: relative;
+	width: 100%;
+	float: left;
+	padding: 0 0 0 30px;
+	text-align:center;
+	position: relative;
 }
 .tg-headerfixed.scroll-to-fixed-fixed{background: #fff;}
 .tg-logo {
@@ -1149,13 +1115,7 @@ li.tg-rss a { background:#ff6600; }
     padding:0;
     display:block;
 }
-/* =============================================
-<<<<<<< HEAD
-				Slider Style
-=======
-				Slider Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-bannerholder{
     width:100%;
     float:left;
@@ -1339,13 +1299,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-select .dropdown-menu>.active>a:focus,
 .tg-select .dropdown-menu>.active>a:hover,
 .tg-select .dropdown-menu.inner li a:hover {color: #fff;}
-/* =============================================
-<<<<<<< HEAD
-			Tour Destination Style
-=======
-			Tour Destination Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-toursdestinations {
     clear: both;
     margin: -5px;
@@ -1436,12 +1390,13 @@ li.tg-rss a { background:#ff6600; }
     display: block;
 }
 .tg-tourdestination figcaption .tg-description { padding: 20px 0 0; }
+
 .tg-tourdestination figcaption .tg-description p {
-    margin: 0;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 16px;
-    text-transform: uppercase;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 16px;
+	text-transform: uppercase;
 }
 .tg-head{
     width:100%;
@@ -1451,13 +1406,7 @@ li.tg-rss a { background:#ff6600; }
     width:240px;
     float:right;
 }
-/* =============================================
-<<<<<<< HEAD
-			Features Style
-=======
-			Features Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-zerotoppadding{padding-top: 0 !important;}
 .tg-zerobottompadding{padding-bottom: 0 !important;}
 .tg-features {
@@ -1490,13 +1439,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-featuretitle h2 a { color: #000; }
 .tg-feature .tg-description {  }
 .tg-feature .tg-description p { margin: 0; }
-/* =============================================
-<<<<<<< HEAD
-			Popular Tour Style
-=======
-			Popular Tour Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-parallax {
     width: 100%;
     float: left;
@@ -1638,13 +1581,7 @@ li.tg-rss a { background:#ff6600; }
     display:inline-block;
     vertical-align:middle;
 }
-/* =============================================
-<<<<<<< HEAD
-			Our Destination Style
-=======
-			Our Destination Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-ourdestination {
     width: 100%;
     float: left;
@@ -1694,13 +1631,7 @@ li.tg-rss a { background:#ff6600; }
     font-weight: 600;
     line-height: 16px;
 }
-/* =============================================
-<<<<<<< HEAD
-			Destination Style
-=======
-			Destination Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-destinations {
     width: 100%;
     float: left;
@@ -1759,6 +1690,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-destinationsslider .tg-btnroundnext i { color: inherit; }
 .tg-destinationsslider .tg-btnroundprev { left: -80px; }
 .tg-destinationsslider .tg-btnroundnext { right: -80px; }
+
 .tg-calltoaction {
     color: #fff;
     width: 100%;
@@ -1857,13 +1789,7 @@ li.tg-rss a { background:#ff6600; }
     background: transparent;
 }
 .tg-guidecontent .tg-description p { margin: 0; }
-/* =============================================
-<<<<<<< HEAD
-			Partners Style
-=======
-			Partners Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-ourpartners {
     width: 100%;
     float: left;
@@ -1906,13 +1832,7 @@ li.tg-rss a { background:#ff6600; }
     vertical-align: middle;
 }
 .tg-partners li figure a img { display: block; }
-/* =============================================
-<<<<<<< HEAD
-			Widgets Style
-=======
-			Widgets Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-widget {
     width: 100%;
     float: left;
@@ -2215,13 +2135,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-widgetpersonprice ul li .tg-btn,
 .tg-widgetpersonprice ul li .tg-btn:hover{color:#fff;}
 .tg-widgetpersonprice ul li .tg-btn:after{display:none;}
-/* =============================================
-<<<<<<< HEAD
-			Cart Style
-=======
-			Cart Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-cartproductdetail{
     width:100%;
     float:left;
@@ -2265,13 +2179,7 @@ li.tg-rss a { background:#ff6600; }
     font-size:25px;
     line-height:25px;
 }
-/* =============================================
-<<<<<<< HEAD
-			Footer Style
-=======
-			Footer Style
->>>>>>> 2a28b54 (view tour)
-============================================= */
+
 .tg-footer {
     width: 100%;
     float: left;
@@ -2303,13 +2211,7 @@ li.tg-rss a { background:#ff6600; }
     text-align:center;
     line-height: inherit;
 }
-/*======================================================================================
-<<<<<<< HEAD
-									Home Version Two
-=======
-									Home Version Two
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-homebannerslider {position: relative;}
 .tg-headervtwo {
     top: 30px;
@@ -2817,13 +2719,7 @@ li.tg-rss a { background:#ff6600; }
     opacity: 1;
     visibility: visible;
 }
-/*======================================================================================
-<<<<<<< HEAD
-									Home Version Three
-=======
-									Home Version Three
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-nobackground { background: none; }
 .tg-homesliderfull .item figcaption { padding: 235px 0; }
 .tg-homesliderfull .tg-slidercontent h1 {
@@ -2891,13 +2787,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-parallax .tg-featuretitle h2,
 .tg-parallax .tg-featuretitle h2 span,
 .tg-parallax .tg-featuretitle h2 a { color: #fff; }
-/*======================================================================================
-<<<<<<< HEAD
-									Home Version Four
-=======
-									Home Version Four
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-homebanner .item figcaption { padding: 412px 0; }
 .tg-findtourvfour{position: relative;}
 .tg-btntoggleform {
@@ -2943,13 +2833,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-ourpartnersvtwo .tg-partners { padding: 30px 0 0 }
 .tg-ourpartnersvtwo li figure a img{ opacity: 0.40; }
 .tg-ourpartnersvtwo li figure:hover a img { opacity: 1; }
-/*======================================================================================
-<<<<<<< HEAD
-									Home Version Five
-=======
-									Home Version Five
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-homebannervtwo {  }
 .tg-homebannervtwo .item figcaption { padding: 250px 0 0; }
 .tg-slidercontent .tg-videobox {
@@ -2975,13 +2859,7 @@ li.tg-rss a { background:#ff6600; }
     -webkit-box-shadow: 0 0 15px 2px rgba(0,0,0,0.20);
     box-shadow: 0 0 15px 2px rgba(0,0,0,0.20);
 }
-/*======================================================================================
-<<<<<<< HEAD
-										About us
-=======
-										About us
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-innerbanner .tg-sectionspace {
     color: #fff;
     text-align:center;
@@ -3089,13 +2967,7 @@ li.tg-rss a { background:#ff6600; }
     padding: 30px 0 0;
 }
 .tg-panelcontent .tg-description p{ margin:0; }
-/*======================================================================================
-<<<<<<< HEAD
-										FAQ'S
-=======
-										FAQ'S
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-content {
     width: 100%;
     float: left;
@@ -3117,13 +2989,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-faqs .tg-item:nth-child(even) { float: right; }
 .tg-faqs ol li + li { padding: 20px 0 0; }
 .tg-faqs .tg-description p:last-child { margin: 0; }
-/*======================================================================================
-<<<<<<< HEAD
-								Package Plans
-=======
-								Package Plans
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-pkgplans {
     width: 100%;
     float: left;
@@ -3187,13 +3053,7 @@ li.tg-rss a { background:#ff6600; }
     padding: 0 5px 0 0;
     vertical-align: top;
 }
-/*======================================================================================
-<<<<<<< HEAD
-								Contact Us Style
-=======
-								Contact Us Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-contactinfo {
     width: 100%;
     float: left;
@@ -3248,13 +3108,7 @@ li.tg-rss a { background:#ff6600; }
     float: left;
     padding: 15px 0 0;
 }
-/*======================================================================================
-<<<<<<< HEAD
-								Blog Grid Style
-=======
-								Blog Grid Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-blogposts{}
 .tg-posts.tg-blogposts{
     width: auto;
@@ -3329,13 +3183,7 @@ li.tg-rss a { background:#ff6600; }
 .tg-btnreadmore:hover { padding: 0 0 0 60px; }
 .tg-btnreadmore:hover:before { width: 54px; }
 .tg-blogposts .tg-pagination { padding: 0 30px; }
-/*======================================================================================
-<<<<<<< HEAD
-								Blog Detail Style
-=======
-								Blog Detail Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-innerbannervtwo .tg-sectionspace{padding:550px 0 100px;}
 .tg-postmaradata{
     font-size:13px;
@@ -3538,13 +3386,7 @@ blockquote{
 }
 .tg-formleavecomment .tg-btn:hover{color:#fff;}
 .tg-formleavecomment .tg-btn:after{display:none;}
-/*======================================================================================
-<<<<<<< HEAD
-								Listing Styles
-=======
-								Listing Styles
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-listing {
     width: 100%;
     float: left;
@@ -3718,13 +3560,7 @@ blockquote{
 }
 .tg-listingvsix .tg-priceavailability .tg-pricearea {padding: 90px 0 68px;}
 .tg-listingvsix .tg-pagination{text-align:left;}
-/*======================================================================================
-<<<<<<< HEAD
-								Shop Style
-=======
-								Shop Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-shopgrid .tg-sectiontitle{padding: 0 0 20px;}
 .tg-product {
     width: 100%;
@@ -3846,13 +3682,7 @@ blockquote{
 .tg-btnaddtocart:hover,
 .tg-btnaddtocart:hover i,
 .tg-btnaddtocart:hover span{color: #fff;}
-/*======================================================================================
-<<<<<<< HEAD
-								404 Error Style
-=======
-								404 Error Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-404errorpage{
     background: url(../images/img-02.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -3919,13 +3749,7 @@ blockquote{
     font-size:15px;
     line-height:15px;
 }
-/*======================================================================================
-<<<<<<< HEAD
-								Product Detail Style
-=======
-								Product Detail Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-productdetail{
     width:100%;
     float:left;
@@ -4011,24 +3835,12 @@ blockquote{
     float:left;
     padding:0 0 120px;
 }
-/*======================================================================================
-<<<<<<< HEAD
-								Tour Catagory Style
-=======
-								Tour Catagory Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-tourcatagory .tg-sectiontitle h2{margin:0 0 20px;}
 .tg-tourcatagory .tg-sectiontitle{padding:0 0 45px;}
 .tg-tourcatagory .tg-sectiontitle .tg-description p{margin:0}
 .tg-bgwhite{background:#fff;}
-/*======================================================================================
-<<<<<<< HEAD
-								Tour Booking Detail Style
-=======
-								Tour Booking Detail Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-tourbookingdetail{
     width:100%;
     float:left;
@@ -4446,13 +4258,7 @@ blockquote{
 .tg-bookingtabs .tg-locationtab:before,
 .tg-bookingtabs .tg-reviewtab:before,
 .tg-bookingtabs .tg-gallerytab:before{display:none;}
-/*======================================================================================
-<<<<<<< HEAD
-								Tour Payment Style
-=======
-								Tour Payment Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-tourpaymentdetail{
     width:100%;
     float:left;
@@ -4497,13 +4303,7 @@ blockquote{
     display:block;
     position:absolute;
 }
-/*======================================================================================
-<<<<<<< HEAD
-								Billing Detail Style
-=======
-								Billing Detail Style
->>>>>>> 2a28b54 (view tour)
-======================================================================================*/
+
 .tg-billingdetail{
     width:100%;
     float:left;
@@ -4632,6 +4432,7 @@ blockquote{
     filter: drop-shadow(0 0 0 rgba(0,0,0,.7));
 }
 .tg-formbillingdetail .tg-btn{margin:30px 0 0;}
+
 .tg-dashboard{
     width:100%;
     float:left;
@@ -4822,6 +4623,7 @@ blockquote{
 }
 .tg-imgholder .tg-btn:after{display:none;}
 .tg-imgholder .tg-btn:hover{color:#fff;}
+
 body.tg-comingsoonpage{
     background: url(../images/comingsoon-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -4972,12 +4774,12 @@ body.tg-comingsoonpage .tg-main:before{
 }
 .tg-search .tg-btn{background:transparent;}
 .tg-search.open {
-    -webkit-transform: translate(0px, 0px) scale(1, 1);
-    -moz-transform: translate(0px, 0px) scale(1, 1);
-    -o-transform: translate(0px, 0px) scale(1, 1);
-    -ms-transform: translate(0px, 0px) scale(1, 1);
-    transform: translate(0px, 0px) scale(1, 1);
-    opacity: 1;
+	-webkit-transform: translate(0px, 0px) scale(1, 1);
+	-moz-transform: translate(0px, 0px) scale(1, 1);
+	-o-transform: translate(0px, 0px) scale(1, 1);
+	-ms-transform: translate(0px, 0px) scale(1, 1);
+	transform: translate(0px, 0px) scale(1, 1);
+	opacity: 1;
 }
 .tg-search form{
     width:100%;
@@ -5401,9 +5203,9 @@ body.tg-hidescroll{overflow:hidden;}
     100% {top:0; }
 }
 @-moz-keyframes mapping{
-    0% {top: 0;}
-    50%{top: -5px;}
-    100% {top:0; }
+	0% {top: 0;}
+	50%{top: -5px;}
+	100% {top:0; }
 }
 .minus, .plus{
     width:30px;
