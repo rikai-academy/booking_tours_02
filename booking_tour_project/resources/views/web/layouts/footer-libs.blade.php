@@ -45,3 +45,5 @@
         @endif
     });
 </script>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script src="{{asset('dist/js/paypal.js')}}"></script>

@@ -28,6 +28,15 @@ Route::resource('/search', \App\Http\Controllers\web\SearchController::class);
 Route::resource('/profile', \App\Http\Controllers\web\ProfileController::class);
 
 
+//paypal
+// route for processing payment
+Route::post('/paypal', [App\Http\Controllers\PaymentController::class, 'payWithpaypal'])->name('paypal');
+
+// route for check status of the payment
+Route::get('/status', [App\Http\Controllers\PaymentController::class, 'getPaymentStatus'])->name('status');
+//end paypal
+
+
 Route::get('/redirect/{provider}', [LoginController::class, 'redirect']);
 Route::get('/callback/{provider}', [LoginController::class, 'callback']);
 Route::get('/login', [LoginController::class, 'index'])->name('loginUser');
