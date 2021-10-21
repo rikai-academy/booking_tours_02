@@ -49,32 +49,16 @@
         <div class="divider_border "></div>
 
         <div class="container">
-            <form action="/search" method="POST" class="row mt-3">
-                @csrf
-                <div class="col-5">
-                    <div class="form-group">
-                        <label>{{__('home.address')}}:</label>
-                        <select class="form-control select2 select2-hidden-accessible" style="width: 100%;"
-                                tabindex="-1" aria-hidden="true" name="cate_id">
-                            <option selected="selected" value="">----------{{__('home.select_address')}}----------
-                            </option>
-                            @foreach($cates as $cate)
-                                <option value="{{$cate->id}}">{{$cate->name}}</option>
-                            @endforeach
-                        </select>
+            <form action="/search" method="GET" class="row mt-3 " autocomplete="off">
+                <div class="col-12 card-body d-flex justify-content-center form-outline">
+                    <div class="col-10">
+                        <input type="search" id="key_works" name="search" class="form-control"
+                               placeholder="{{__('home.search_note')}}"/>
+                        <div id="auto-conplete" class="row"></div>
                     </div>
-                </div>
-                <div class="col-5">
-                    <label>{{__('home.date_start')}}:</label>
-                    <div id="datepicker" class="input-group date" data-date-format="dd-mm-yyyy">
-                        <input class="form-control" readonly="" type="text" name="date_start">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-                    </div>
-                </div>
-                <div class="col-2 mt-2">
-                    <label> </label>
-                    <button class="btn btn-outline-success my-2 p-2 my-sm-0 col-12"
-                            type="submit">{{__('home.search')}}</button>
+                    <button type="submit" class="btn btn-primary ml-1" style="height: 38px">
+                        <strong>{{__('home.search')}}</strong>&nbsp;<i class="fas fa-search"></i>
+                    </button>
                 </div>
             </form>
             <hr>
@@ -93,9 +77,11 @@
                                     <img src="{{$tour->avata}}" width="350" height="200" class="img-responsive" alt="">
                                     <div class="short_info">
                                         <h3 class="text_description">{{$tour->name}}</h3>
-                                        <div class="score_wp">Superb
-                                            <div class="score">{{\App\Models\AssessRate::getRate($tour->id)}}</div>
-                                        </div>
+                                        @if($tour->rate !=0)
+                                            <div class="score_wp">
+                                                <div class="score">{{$tour->rate}}</div>
+                                            </div>
+                                        @endif
                                     </div>
                                 </a>
                             </div>
@@ -123,8 +109,10 @@
                                         <figure><img src="{{$tour_new->avata}}" alt="thumb" class="img-rounded"
                                                      width="60" height="60"></figure>
                                         <h4>{{$tour_new->name}}</h4>
-                                        <small>Point rate &nbsp; </small>
-                                        <small class="score-1">{{$tour_new->rate}}</small>
+                                        @if($tour_new->rate != 0)
+                                            <small>Point rate &nbsp; </small>
+                                            <small class="score-1">{{$tour_new->rate}}</small>
+                                        @endif
                                         <span class="price_list">{{getPrice($tour_new->priceAdult)}}</span>
                                     </a>
                                 </div>
@@ -143,8 +131,10 @@
                                         <figure><img src="{{$tour_highly->avata}}" alt="thumb" class="img-rounded"
                                                      width="60" height="60"></figure>
                                         <h4>{{$tour_highly->name}}</h4>
-                                        <small>Point rate &nbsp; </small>
-                                        <small class="score-1">{{$tour_highly->rate}}</small>
+                                        @if($tour_highly->rate != 0)
+                                            <small>Point rate &nbsp; </small>
+                                            <small class="score-1">{{$tour_highly->rate}}</small>
+                                        @endif
                                         <span class="price_list">{{getPrice($tour_highly->priceAdult)}}</span>
                                     </a>
                                 </div>
@@ -155,7 +145,7 @@
                 </div>
             </div>
             <p class="text-center add_bottom_45">
-                <a href="/tour" class="btn_1">{{__('home.all_tour')}} (24)</a>
+                <a href="/tour" class="btn_1">{{__('home.all_tour')}}</a>
             </p>
         </div>
     </section>
@@ -246,3 +236,6 @@
         </div>
     </section>
 @endsection
+@push('script')
+    <script type="text/javascript" src="{{asset('dist/js/home.js')}}"></script>
+@endpush

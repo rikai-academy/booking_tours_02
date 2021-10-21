@@ -43,19 +43,23 @@ class Tour extends Model
     {
         return $this->hasMany(Review::class, 'tour_id', 'id');
     }
+    public function assessRate()
+    {
+        return $this->hasMany(AssessRate::class, 'tour_id', 'id');
+    }
 
     public function category()
     {
         return $this->belongsTo(Category::class, 'cate_id', 'id');
     }
 
-    public function scopeSearchTour($query, $cate_id, $date)
+    public function scopeSearchTourCategoty($query, $input)
     {
-        return $query->when($cate_id != null, function ($qr) use ($cate_id, $date) {
-            $qr->where('cate_id', $cate_id)->where('date_start', '<', $date);
-        }, function ($qr) use ($date) {
-            $qr->where('date_start', '<', $date);
-        });
+        return $query->where('cate_id', $input)->paginate(12);
+    }
+    public function scopeSearchTour($query, $input)
+    {
+        return $query->where('name', 'like', '%'.$input.'%')->paginate(12);
     }
 
     public function scopeTopTour()

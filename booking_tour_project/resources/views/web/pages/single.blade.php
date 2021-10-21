@@ -6,13 +6,11 @@
         <div id="sub_content_in">
             <div id="animate_intro">
                 <h1>{{$tour->name}}</h1>
-
             </div>
         </div>
     </section>
     <section class="wrapper">
         <div class="divider_border"></div>
-
         <div class="container">
             <div class="row" id="tab">
                 <div class="col-md-7">
@@ -47,16 +45,14 @@
                             </div>
                         </div>
                         <!-- End tab_1 -->
-
                         <div class="tab-pane" id="tab_2">
-
-                            <div id="summary_review">
+                            <div id="summary_review" class="pb-5">
                                 <div class="review_score">
-                                    <span>{{\App\Models\AssessRate::getRating($tour->id)!= null ? number_format(\App\Models\AssessRate::getRating($tour->id), 1) : '5.0'}}</span>
+                                    <span>{{$tour->rate}}</span>
                                 </div>
                                 <div class="review_score_2">
                                     <h4>
-                                        <span>({{__('single.based_on')}} {{\App\Models\Review::countReview()}} {{__('single.reviews')}})</span>
+                                        <span>({{__('single.based_on')}} {{$tour->assessRates ? count($tour->assessRates) : 0}} {{__('single.reviews')}})</span>
                                     </h4>
                                 </div>
                             </div>
@@ -69,7 +65,7 @@
                             <hr>
 
                             <div class="add-review">
-                                <h4>{{__('single.leaver_eview')}}</h4>
+                                <h4>{{__('single.leave_review')}}</h4>
                                 <div id="message-review"></div>
                                 <form method="post" action="/comment/{{$tour->id}}" class="row">
                                     @csrf
@@ -130,8 +126,7 @@
                     <div class="box_style_2">
                         <h3>{{__('single.book_your_tour')}}<span>{{__('single.free_service')}}</span></h3>
                         <div id="message-booking"></div>
-                        <form method="post" action="/booking/{{$tour->id}}" autocomplete="off">
-                            @method('PUT')
+                        <form method="POST" action="/booking/{{$tour->id}}" autocomplete="off">
                             @csrf
                             <table id="tickets" class="table">
                                 <thead>
