@@ -2,12 +2,12 @@
 
 namespace App\Services;
 
+use App\Jobs\NotificationTourJob;
 use App\Models\Category;
 use App\Models\Image;
 use App\Models\Tour;
 use App\Models\TourDetail;
 use App\Models\TourRoute;
-use Dflydev\DotAccessData\Data;
 use Illuminate\Support\Facades\DB;
 
 class AdminService
@@ -22,7 +22,7 @@ class AdminService
             Image::insert($images);
             //  create list program
             $programs = $this->createProgram($input, $tour);
-            TourRoute::insert($programs);
+            dispatch(new NotificationTourJob($programs));
             DB::commit();
             return true;
         } catch (Exception $e) {

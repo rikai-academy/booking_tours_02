@@ -12,7 +12,7 @@ class ChartService
     public function indexHome()
     {
         $dateStart = Carbon::now()->startOfMonth();
-        $now = Carbon::now();
+        $now = Carbon::now()->addDay();
         $bookings = Booking::selectNumberBooking($dateStart, $now);
         $revenue = Booking::sumRevenue($dateStart, $now);
         $register = User::sumRegister($dateStart, $now);
@@ -64,13 +64,13 @@ class ChartService
     {
         $now = Carbon::now();
         if ($input['filter'] == 'day') {
-            $result = $this->filterDay($now);
+            $result = $this->filterDay($now->addDay());
         } elseif ($input['filter'] == 'lastmonth') {
             $result = $this->filterLastMonth();
         } elseif ($input['filter'] == 'thismonth') {
-            $result = $this->filterThisMonth($now);
+            $result = $this->filterThisMonth($now->addDay());
         } else {
-            $result = $this->filterYear($now);
+            $result = $this->filterYear($now->addMonth());
         }
         return $result;
     }
